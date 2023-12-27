@@ -1,0 +1,55 @@
+/*define font style*/
+/*define colors*/
+/*white*/
+/*light gray*/
+/*grayish blue*/
+/*dark blue*/
+/*.body {
+    background-color: black;
+} */
+.card-title {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-family: "Outfit", sans-serif;
+  padding-top: 5px;
+}
+
+.card-text {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+  color: hsl(220, 15%, 55%);
+  padding-top: 10px;
+  line-height: 1.2;
+}
+
+.card-img-top {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 375px) {
+  /* Mobile styles */
+  body {
+    width: 375px;
+    margin: 0 auto; /* Center the content */
+  }
+}
+@media (min-width: 1440px) {
+  /* Desktop styles */
+  body {
+    width: 1440px;
+    margin: 0 auto; /* Center the content */
+  }
+}/*# sourceMappingURL=main.css.map */
